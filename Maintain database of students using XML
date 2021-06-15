@@ -1,0 +1,90 @@
+#Maintain database of students using XML.
+
+<?xml version = "1.0"?>
+<contact-info>
+<h1>
+   <contact1>
+      <Name>Nitish Kumar Tiwari</Name>
+      <Department>IT</Department>
+      <Sem>3</Sem>
+      <PRN>2043110311</PRN>
+   </contact1>
+   </h1>
+<h1>
+   <contact2>
+      <Name>Umesh Vishwakarma</Name>
+      <Department>IT</Department>
+      <Sem>3</Sem>
+      <PRN>2043110314</PRN>
+   </contact2>
+</h1>
+<h1>
+   <contact3>
+      <Name>Emadul S. Hasan</Name>
+      <Department>IT</Department>
+      <Sem>3</Sem>
+      <PRN>1914110229</PRN>
+   </contact3>    
+</h1>
+<h1>
+    <contact4>
+      <Name>Ritu Tiwari</Name>
+      <Department>IT</Department>
+      <Sem>3</Sem>
+      <PRN>1914110154</PRN>
+   </contact4>
+</h1>
+<h1> 
+     <contact5>
+      <Name>Himanshu Pandey</Name>
+      <Department>Comp.</Department>
+      <Sem>5</Sem>
+      <PRN>1814110256</PRN>
+   </contact5>
+</h1>
+
+<h1>
+      <contact6>
+      <Name>Kabir Makhija</Name>
+      <Department>CSBS</Department>
+      <Sem>3</Sem>
+      <PRN>1914110558</PRN>
+   </contact6>
+</h1>
+<h1>
+     <contact7>
+      <Name>Tanishq Philaok</Name>
+      <Department>Electrical</Department>
+      <Sem>3</Sem>
+      <PRN>1914110779</PRN>
+   </contact7>
+</h1>
+
+<h1>
+       <contact8>
+      <Name>Kabir Namdeo</Name>
+      <Department>Comp.</Department>
+      <Sem>3</Sem>
+      <PRN>1914110048</PRN>
+   </contact8>
+</h1>
+ 
+ <h1>
+        <contact9>
+      <Name>Sarthak Bhasin</Name>
+      <Department>Comp.</Department>
+      <Sem>3</Sem>
+      <PRN>1914110098</PRN>
+   </contact9>
+</h1>
+
+<h1>
+       <contact10>
+      <Name>Vandit Jain</Name>
+      <Department>Electrical</Department>
+      <Sem>3</Sem>
+      <PRN>1914110456</PRN>
+   </contact10>
+ </h1>
+ 
+</contact-info>
