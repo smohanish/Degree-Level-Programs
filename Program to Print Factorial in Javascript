@@ -1,0 +1,54 @@
+#Using JavaScript Design a program that prints factorial.
+
+<!DOCTYPE HTML> 
+<html> 
+
+<head> 
+    <title> 
+        Factorial of a number 
+        using JavaScript 
+    </title> 
+</head> 
+
+<body style = "text-align:center;"> 
+    
+    <h1 style = "color:blue;" > 
+        Factorial of a number
+    </h1> 
+    
+    <p id = "GFG_UP" style = 
+        "font-size: 15px; font-weight: bold;"> 
+    </p> 
+    
+    <button onclick = "GFG_Fun()"> 
+        Click Here 
+    </button> 
+    
+    <p id = "GFG_DOWN" style = 
+        "color:green; font-size: 20px; font-weight: bold;"> 
+    </p> 
+    
+    <script> 
+        var up = document.getElementById('GFG_UP'); 
+        var down = document.getElementById('GFG_DOWN'); 
+        var n = 7; 
+        
+        up.innerHTML = "Click on the button to calculate" 
+                + " the factorial of n.<br>n = " + n; 
+        
+        function Factorial(n) { 
+            if (n === 0) { 
+                return 1; 
+            } 
+            else { 
+                return n * Factorial( n - 1 ); 
+            } 
+        } 
+        
+        function GFG_Fun() { 
+            down.innerHTML = Factorial(n); 
+        } 
+    </script> 
+</body> 
+
+</html>
