@@ -1,0 +1,200 @@
+#Create a website og college using HTML.
+
+Html tages: html,head,body,title, style, font size,face,center,underline,bold,table,tr,td,img src,p,br,header (h1,h2),A href
+Homepage code
+<html>
+ <head><title>web page</title></HEAD>
+<Body style="background-color:#eee8aa">
+<CENTER><H1> <U><FONT COLOR="black">Bharati Vidyapeeth
+ </FONT></U></H1></CENTER>      
+ <center>
+    <b>Deemed To Be Univerity</b>
+</center>
+<IMG SRC="C:\Users\Sheetanshu\Pictures\cllg logo.jpg"WIDTH="150" HEIGHT="200"
+ALIGN="LEFT"/>
+<img src="C:\Users\Sheetanshu\Pictures\Untitled.jpg" width="1080" height="200"/>
+<table width="100%" border="1">
+<th><A HREF="homepage.html">HOME</A></th>
+<th><A HREF="ABOUTUS.HTML">ABOUT US</A></th>
+<th><A HREF="DEPARTMENT.html">DEPARTMENT</A></th>
+<th><A HREF="CONTACT US.html">CONTACT US</A></TH>
+</table>
+<br><br><br><br>
+<FONT SIZE="5" FACE="Times of Roman"><center>Welcome to BVUCOEP</center></FONT>
+<br><br>
+
+<p font size="2" face="arial" color="black">
+    Bharati Vidyapeeth (Deemed to be University) College of Engineering was established by Dr. Patangrao Kadam in 1983. BVUCOEP is constituent unit of Bharati Vidyapeeth (Deemed to be University). Which has been Accredited to A+ grade in its third Cycle by ‘NAAC’ in 2017 (BVDU accredited to Grade ‘A’ in 2004 and 2011). The National Board of Accreditation (NBA) has accredited programmes of BVUCOEP in 2018, 2012 and 2005. BVUCOEP ranked among top 100 Engineering Institutes of India continuously for five years by NIRF, MHRD, Govt. of India. Ranked 99th at National Level by NIRF 2020. Vision of Bharati Vidyapeeth (Deemed to be University) is “To be world class University for Social Transformation Through Dynamic Education”.
+</p>
+</body>
+</html>
+
+About us code:
+<HTML>
+<HEAD>
+<TITLE> ABOUT US </TITLE>
+
+<BODY style="background-color:#eee8aa">
+    <CENTER><H1> <U><FONT COLOR="black">Bharati Vidyapeeth
+    </FONT></U></H1></CENTER>      
+    <center>
+       <b>Deemed To Be Univerity</b>
+   </center>
+   <IMG SRC="C:\Users\ Sheetanshu\Pictures\cllg logo.jpg"WIDTH="150" HEIGHT="200"
+   ALIGN="LEFT"/>
+   <img src="C:\Users\Sheetanshu\Pictures\Untitled.jpg" width="80%" height="200"/>
+   <table width="100%" border="1">
+   <th><A HREF="homepage.html">HOME</A></th>
+   <th><A HREF="ABOUTUS.HTML">ABOUT US</A></th>
+   <th><A HREF="DEPARTMENT.HTML">DEPARTMENT</A></TH>
+    <th><A HREF="CONTACT US.HTML">CONTACT US</A></th>
+   
+   </table>
+   
+
+<img src="C:\Users\Sheetanshu\Pictures\cllg.jpg" width="100%" height="250"/>
+<img src="C:\Users\Sheetanshu\Pictures\cllg logo.jpg" width="200" height="150" align="right"/>
+<h2><font color="blue"> ABOUT US:- </font></H2>
+<p font size="2" face="arial" color="black">Bharati Vidyapeeth Deemed University College of Engineering, Pune established in 1983, a constituent unit of BV University with A Grade status by MHRD, A+ grade by NAAC and holds a place of pride and is amongst the most reputed institute. It has been ranked to 99th by National Institutional Ranking Framework (NIRF) 2020. Further, DATAQUEST-CMR national survey also ranked this institute to 3rd among private technical institutions of India, 29th by Times of India & 45th Ranking by Outlook This is the only institute from state of Maharashtra selected by MHRD for its Technical Education Quality Improvement Programme (TEQIP-II – 1.1 Programme) for the grant of Rs. 4 Crores.
+BVUCOE, Pune offers 10 graduate, 08 post graduates programmes and Doctoral programmes in 08 disciplines. All Programmes are accredited by National Board of Accreditation (NBA) thrice.</p>
+<br>
+<p font size="2" face="arial" color="black">Since its inception in 1983 till July 2000, the college was affiliated on a permanent basis to University of Pune. In July 2000, the Government of India, on the recommendations of the UGC and AICTE has included this college as a constituent unit of Bharati Vidyapeeth University. This college has thus the approval and recognition of the Government of India, AICTE, UGC and the Government of Maharashtra
+As per the section 3 of the UGC Act 1956, the Deemed Universities have the same status as the State and Central statuary Universities. So the degrees and diplomas, which Bharati Vidyapeeth University awards to its students, have the same status and recognition as those awarded by the State and Central statuary Universities.</p>
+<p>
+<style>
+    h2{text-align:left; color:rgb(red, green, blue); background-color: transparent; }
+</style>
+<h2>VISION OF THE INSTITUTE:</h2>
+<ul>
+<li>
+To be World Class Institute for Social Transformation Through Dynamic Education.
+</li>
+</ul>
+<br>
+<h2>
+    MISSION OF THE INSTITUTE :
+</h2>
+<ul> 
+<li>To provide quality technical education with advanced equipments, qualified faculty members, infrastructure to meet needs of profession and society.
+</li>
+<li>To provide an environment conducive to innovation, creativity, research and entrepreneurial leadership.
+</li>
+<li>To practice and promote professional ethics, transperency and accountability for social community, economic and environmental conditions.
+</li>
+</ul>
+</p>
+</p>
+<br><br><br><br><tr><th></th></tr>
+<A HREF="homepage.HTML">back</A>
+</BODY>
+</HEAD>
+</HTML>
+
+Department code:
+<html>
+    <head>
+        <title>DEPARTMENT</title>
+    </head>
+    <CENTER><H1> <U><FONT COLOR="black">Bharati Vidyapeeth
+    </FONT></U></H1></CENTER>      
+    <center>
+       <b>Deemed To Be Univerity</b>
+   </center>
+   <IMG SRC="C:\Users\Sheetanshu\Pictures\cllg logo.jpg"WIDTH="150" HEIGHT="200"
+   ALIGN="LEFT"/>
+   <img src="C:\Users\Sheetanshu\Pictures\Untitled.jpg" width="1080" height="200"/>
+   <table width="100%" border="1">
+   <th><A HREF="homepage.html">HOME</A></th>
+   <th><A HREF="ABOUTUS.HTML">ABOUT US</A></th>
+   <th><A HREF="DEPARTMENT.html">DEPARTMENT</A></th>
+   <th><A HREF="CONTACT US.html">CONTACT US</A></TH>
+   </table>   
+    
+    <BODY style="background-color:#eee8aa">
+    <style>
+    h2{text-align:center; color:red; background-color:orange}
+    </style>
+    <h2>PROGRAMS</h2>
+        <font size="5"
+            face="verdana"
+            color="blue">
+            GRADUATE
+        </font>
+    <table border="1">
+    <tr>
+    <td>B.tech (Chemical)</td>
+    <td>B.tech (Civil)</td>
+    <td>B.tech (Computer)</td>
+    <td>B.tech (Electircal)</td>
+    <td>B.tech (Electronics)</td>
+    <td>B.tech (Electronics and Telicommunication)</td>
+    <td>B.tech (Information Techonology)</td>
+    <td>B.Tech (Mechincal)</td>
+    <td>B.tech (Production)</td>
+    <td>B.tech (Computer Scince and Enginnering)</td>
+    <td>B.tech (Computer Scince  and Busniess Sytem)</td>
+    <td>B.tech (Robotics and Automantion)</td>
+    </table>
+    <font size="5"
+        face="arial"
+        color="blue">
+        POST GRADUATE
+    </font>
+
+    <table border="1">
+        <th>M.Tech (Chemical)</th>
+        <th>M.Tech (Civil Water Resource Enginnering)</th>
+        <th>M.Tech (Mechincal)</th>
+        <th>M.Tech (Computer)</th>
+        <th>M.Tech (Electircal Enginnering)</th>
+        <th>M.Tech (Electronics Enginnering)
+        </th>
+        <th>M.tech (Information Techonology)</th>
+        <th>M.tech (Nanao-technology)</th>
+    </table>
+        
+    </BODY>
+</html>
+
+Contact us code:
+<HTML>
+<HEAD>
+<TITLE>CONTACT US</TITLE>
+</HEAD>
+<CENTER><H1> <U><FONT COLOR="black">Bharati Vidyapeeth
+</FONT></U></H1></CENTER>      
+<center>
+   <b>Deemed To Be Univerity</b>
+</center>
+<IMG SRC="C:\Users\Sheetanshu\Pictures\cllg logo.jpg"WIDTH="150" HEIGHT="200"
+ALIGN="LEFT"/>
+<img src="C:\Users\Sheetanshu\Pictures\Untitled.jpg" width="1080" height="200"/>
+<table width="100%" border="1">
+<th><A HREF="homepage.html">HOME</A></th>
+<th><A HREF="ABOUTUS.HTML">ABOUT US</A></th>
+<th><A HREF="DEPARTMENT.html">DEPARTMENT</A></th>
+<th><A HREF="CONTACT US.html">CONTACT US</A></TH>
+
+</table>
+
+<img src="C:\Users\Sheetanshu\Pictures\cllg2.jpg" width="100%" height="250">
+<BODY style="background-color: palegoldenrod;">
+<center>
+<b>
+    Bharati Vidyapeeth (Deemed to be University)
+</b>
+<br>
+<b>
+    College of Engineering,
+</b>
+<br>
+Pune-Satara Road,
+<br><br>
+Telephone:     (020)-24107390, (020)-24107391
+<br>
+Fax:                    (020)-24372998
+<br>
+</center>
+<A HREF="homepage.HTML">back</A>
+</BODY>
+</HTML>
