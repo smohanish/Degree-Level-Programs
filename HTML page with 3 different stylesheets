@@ -1,0 +1,127 @@
+#Display a HTML page with 3 different stylesheets.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- Java Script for using buttons to swap between stylesheets -->
+    <script type="text/javascript">
+        function swapStyleSheet(sheet) {
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+        }
+    </script>
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheet1.css" media="screen" />
+
+</head>
+
+<body>
+
+    <button onClick="swapStyleSheet('stylesheet1.css')">style1</button>
+
+    <button onClick="swapStyleSheet('stylesheet2.css')">style2</button>
+
+    <button onClick="swapStyleSheet('stylesheet3.css')">style3</button>
+
+    <div id="header">
+        <h1>Hey! Welcome to I.T department</h1>
+    </div>
+
+    <div id="content">
+        <p> WE ARE THE BEST ENGINEERERS </p>
+        <h3>AKASHDA SHUKLA </h3>
+        
+    </div>
+
+    <div id="footer">
+        <h2>Address</h2>
+        <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+        <h2>Recent Posts</h2>
+        <p><a href="http://bvucoepune.edu.in/change-of-branch-application-btech-2020-21/">Change of Branch
+                Application BTech 2020-21</p>
+    </div>
+
+</body>
+
+</html>
+LINKED CSS FILES
+STYLESHEET1
+body{
+    text-align:left;
+    font: 12px Calibri Light , Helvetica, sans-serif;
+    font-size: 13px;
+    color:black;
+    background-color: chartreuse;
+}
+
+#header{
+    height: 100%;
+    background-color: brown;
+    padding: 2% 5%;
+}
+
+#content{
+    height: 100%;
+    padding: 10%;
+    background-color: blueviolet;
+}
+
+#footer{
+    height: 100%;
+    background-color: red;
+    padding: 7%;
+}
+STYLESHEET2
+body{
+    text-align:center;
+    font: 12px Algerian, Helvetica, sans-serif;
+    font-size: 13px;
+    color:black;
+    background-color: chocolate;
+}
+
+#header{
+    height: 100%;
+    background-color: crimson;
+    padding: 2% 5%;
+}
+
+#content{
+    height: 100%;
+    padding: 10%;
+    background-color: cyan;
+}
+
+#footer{
+    height: 100%;
+    background-color: darkgreen;
+    padding: 7%;
+}
+STYLESHEET3
+body{
+    text-align:right;
+    font: 12px Pristina, Helvetica, sans-serif;
+    font-size: 13px;, Helvetica,
+    color:black;
+    background-color: darkkhaki;
+}
+
+#header{
+    height: 100%;
+    background-color: darkolivegreen;
+    padding: 2% 5%;
+}
+
+#content{
+    height: 100%;
+    padding: 10%;
+    background-color: darkred;
+}
+
+#footer{
+    height: 100%;
+    background-color: gold;
+    padding: 7%;
+}
