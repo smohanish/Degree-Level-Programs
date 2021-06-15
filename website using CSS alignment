@@ -1,0 +1,1335 @@
+#Create a website using CSS alignment.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BVDU</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\cllg img.jpg" width=100%>
+<div class="row">
+  <div class="side">
+    <h5>RANKING & ACCREDITATION</h5>
+    <div class="fakeimg" style="height:200px;">
+        <p>Accreditation status</p>
+        <p>AICTE</p>
+        <p>NAAC Record</p>
+        <p>UGC</p>
+        <p>Academic Audit Report</p>
+    </div>
+    <h3>ADMISSION INFO</h3>
+    <div class="fakeimg" style="height:60px;">Admission Enquiry</div><br>
+    <div class="fakeimg" style="height:60px;">Undergraduate Courses</div><br>
+    <div class="fakeimg" style="height:60px;">Post Graduate Courses</div><br>
+    
+
+    <div class="fakeimg" style="height:60px;">Direct Second Year Admissions</div><br>
+    <div class="fakeimg" style="height:60px;">Admission 2020 Brochures</div>
+  </div>
+  <div class="main">
+    <h2>Welcome to BVUCOEP</h2>
+    <p></p>
+    <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering was established by Dr. Patangrao Kadam in 1983. BVUCOEP is constituent unit of Bharati Vidyapeeth (Deemed to be University). Which has been Accredited to A+ grade in its third Cycle by ‘NAAC’ in 2017 (BVDU accredited to Grade ‘A’ in 2004 and 2011). The National Board of Accreditation (NBA) has accredited programmes of BVUCOEP in 2018, 2012 and 2005. BVUCOEP ranked among top 100 Engineering Institutes of India continuously for five years by NIRF, MHRD, Govt. of India. Ranked 99th at National Level by NIRF 2020. Vision of Bharati Vidyapeeth (Deemed to be University) is “To be world class University for Social Transformation Through Dynamic Education”.</p>
+    <br>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
+
+About us code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\About.jpg" width=100%>
+
+  <div class="main">
+    <h2>About Us</h2>
+    <p></p>
+    <pBharati Vidyapeeth Deemed University College of Engineering at Pune was established in August 1983. Over the last 36 years, the college has made all-round progress and is now acclaimed as one of the best engineering colleges in this part of the country</p>
+    <br>
+    <p>Since its inception in 1983 till July 2000, the college was affiliated on a permanent basis to University of Pune. In July 2000, the Government of India, on the recommendations of the UGC and AICTE has included this college as a constituent unit of Bharati Vidyapeeth University. This college has thus the approval and recognition of the Government of India, AICTE, UGC and the Government of Maharashtra</p>
+    <br>
+    <p>As per the section 3 of the UGC Act 1956, the Deemed Universities have the same status as the State and Central statuary Universities. So the degrees and diplomas, which Bharati Vidyapeeth University awards to its students, have the same status and recognition as those awarded by the State and Central statuary Universities.</p>
+    <br>
+    <h2>VISION OF THE INSTITUTE:</h2>
+    <p>To be World Class Institute for Social Transformation Through Dynamic Education.</p>
+    <h2>MISSION OF THE INSTITUTE :</h2>
+    <ul>
+        <li>To provide quality technical education with advanced equipments, qualified faculty members, infrastructure to meet needs of profession and society.</li>
+        <li>To provide an environment conducive to innovation, creativity, research and entrepreneurial leadership.</li>
+        <li>To practice and promote professional ethics, transperency and accountability for social community, economic and environmental conditions.</li>
+    
+    </ul>
+</div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
+
+Deparment code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Deparment</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.image {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\program.jpg" width=100%>
+
+  <div class="main">
+    <h2>Programs</h2>
+    <p></p>
+    <h5>POST GRADUATE COURSES</h5>
+    <div class="image" style="height: auto;">	M.Tech (Chemical)</div><br>
+    <div class="image" style="height: auto;">	M.Tech (Civil-Water Resource Engineering)</div><br>
+    <div class="image" style="height: auto;">	M.Tech (Computer)</div><br>
+    <div class="image" style="height: auto;">	M. Tech (Mechanical)</div><br>
+    <div class="image" style="height: auto;">	M. Tech (Electrical Engineering)</div><br>
+    <div class="image" style="height: auto;">	M. Tech (Electronics Engineering)</div><br>
+    <div class="image" style="height: auto;">	M. Tech (Information Technology)</div><br>
+    <div class="image" style="height: auto;">	M. Tech (Nano-Technology)</div><br>
+    <h5>GRADUATE COURSES</h5>
+    <div class="image" style="height: auto;">	B. Tech (Chemical)</div><br>
+    <div class="image" style="height: auto;">	B. Tech (Civil)</div><br>
+    <div class="image" style="height: auto;">   B. Tech (Computer)</div><br>
+    <div class="image" style="height: auto;">   B. Tech (Electrical)</div><br>
+    <div class="image" style="height: auto;">	B. Tech (Electronics)</div><br>
+    <div class="image" style="height: auto;">	B. Tech (Electronics and Telecommunication)</div><br>
+    <div class="image" style="height: auto;">	B. Tech (Information Technology)</div><br>
+    <div class="image" style="height: auto;">	B.Tech (Mechanical)</div><br>
+    <div class="image" style="height: auto;">   B.Tech (Production)</div><br>
+    <div class="image" style="height: auto;">   B.Tech (Computer Science and Business Systems)</div><br>
+    <div class="image" style="height: auto;">	B.Tech (Computer Science and Engineering)</div><br>
+    <div class="image" style="height: auto;">   B.Tech (Robotics and Automation)</div><br>
+</div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
+
+R&D code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>R&D</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\r.png" width=100%>
+
+  <div class="main">
+    <h2>R and D Cell</h2>
+    <p></p>
+    <p>Bharati Vidyapeeth College of Engineering has promoted meaningful Research and Development activities with a vision and mission to pursue and promote Research in Frontier Technologies. In order to strengthen and expand the research activities in the institute, R&D cell was established and is functioning in this Institution from last several years. It is acting as the nodal centre for all Research related activities.</p>
+    <p>Policy: To create good infrastructural facilities and conducive environment to inculcate research culture.</p>
+    <p>Aim: To Promote, Coordinate And Implement Research And Development Programs</p>
+    <h2>Major Goals / Objective of R & D Cell</h2>
+    <ul>
+        <li>To promote research activities in frontier areas of science and technology</li>
+        <li>To enhance the research output of the institute by  research paper publication in referred journals and reputed conferences</li>
+        <li>To promote Institute- R&D Organization- Industry Collaboration</li>
+        <li>To encourage Core Competence and Consultancy work</li>
+        <li>To create awareness about filing Patents & IPR</li>
+        <li>To organize various workshops/ seminar/ trainings related to promotion of research</li>
+        <li>Effective management Ph.D. Program</li>
+
+    </ul>
+    <p>The significant factors indicating potential growth in the research activities includes the enhancement in the research publications in peer reviewed journals, Research Projects/ grants, Patents, Collaborations, Doctoral program and Faculty development. R & D cell is focusing the attention on the following major activities:</p>
+</div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
+
+Central libary code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>central-library</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\cllg img.jpg" width=100%>
+
+  <div class="main">
+    <h2>Central Library</h2>
+    <p></p>
+    <p>The Bharati Vidyapeeth University Engineering College library came in to existence with the establishment of the Engineering College in 1983.</p>
+    <h2>Library:</h2>
+    <p>The library of the institute has played a critical role in the teaching and research. It is a five-storied building with Stacking Room, Computer Centre, Periodical Section, Language Lab, Audio Visual Room, Digital Library, Reference Section, and Reading Halls. It contents 69,170 books, national and international journals and 64, 204 e-journals. Digital library of institute is one of the richest sources of knowledge for students and faculty members. The library resources are continuously upgraded and expanded catering to the academic and research needs of students, researchers, and faculty members.</p>
+    <h5>Infrastructure</h5>
+    <p>Library has 2500 square meters of pleasant environment comprising Stacking Room, Computer Centre, Periodical Section, Language Lab, Audio Visual Room, Digital Library, Reference Section, Reading Halls, and Centre for professional excellence.</p>
+    <h2>Library Resources:</h2>
+    <p>The library contains Text Books, Reference Books, ISI code Books, Journals, Periodicals, E Journals, E books, Thesis reports and CDs. The library has also subscribed to institutional membership of IAHR, DELNET, BCL and ARAI. Total 69,170 volumes and 19,200 titles of books are available for various programs of engineering.</p>
+
+</div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
+
+Activities code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Activities</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\activites.jpg" width=100%>
+
+  <div class="main">
+    <h2>Students Activities</h2>
+    <h5>Bharatiyam 2015: Nurturing Attitudes and Aptitudes of Engineers</h5>
+    <p>Bharati Vidyapeeth University College of Engineering had organized its 26th annual National Level technical festival, BHARATIYAM-2015 with great zeal and enthusiasm on 20th and 21st February 2015.</p>
+
+        <p>The chief guest for inaugural function of Bharatiyam 2015 was Prof. D. N. Reddy who is member of University Grants Commission, Govt. of India, New Delhi also Chairman of Appellate committee for National Board of Accreditation, MHRD, Govt. of. India, and Chairman of Recruitment and Assessment Committee of DRDO, under Ministry of Defense.
+        
+        The Guest of honor for inaugural was Mr. Shrirang Bapat, President, Uniken, Pune. The inaugural function was held on 20th February 2015, at 10:00 am, at Bharati Vidyapeeth University College of Engineering, Dhankawadi, Pune.</p>
+
+        
+    <p>In his speech Dr. D. N. Reddy focused on 12 attributes which all engineering graduates must possess so that they can contribute not only to their own prosperity but also to the enrichment and upliftment of society. The 12 attributes which he mentioned were thorough engineering knowledge, analytical and problem solving skills, ability to design and develop solutions, investigative skills, modern tool usage, social scientist, sustainability, values and ethics, individual and team work, communication, project management and financial accounting, lifelong learning. If any engineer introspects and works with these attributes success will follow him like his tail. Engineers should also possess soft skills and should be able to apply their concepts in problem solving. He further said that India spends only 1% of GDP for Research and development whereas smaller countries like Israel spend 4.8% of their GDP on same. To improve contribution of research towards society it must be made mandatory that outcome of Ph. D. should be applied to society. He also said that Indian engineers are liked all the world since they can work anywhere. But unfortunately Indians work well outside India but due to lack of discipline they do not contribute in India. Whatever is invented must be transferred to technology and then production and manufacture. Many a times it is said that GDP does not matter to common man but Prof. Reddy explained that 1 million jobs are created for a common man when the GDP raises even by 1%. Industry earns profits and contributes to prosperity of nation. Educational institutes impart knowledge and creativity. An alliance of these both will definitely flourish the nation. He also said that although India has highly qualifies population but its skill base is only 20% whereas 80% in countries like Singapore, Malaysia, Korea etc. To stress and importance of skill base he gave example of Korea which is country smaller than Maharashtra but owns more than 10 chip foundries whereas India has none. Out of 132 countries, India ranks 47th for its innovative potential. A strong engineering backbone can only bring this ranking to a single digit figure and truly lead the country towards development. He concluded his speech saying that it is possible for students to enjoy only when they are in institutes but they should use this time not only for enjoying but also to learn, excel in knowledge and develop their creativity and that Bharatiyam is a perfect platform for it
+        
+        Prof. Dr. Anand Bhalerao, Principal BVUCOE, and Chairman of Bharatiyam 2015, presented his introductory speech in which he informed about the glorious tradition of Bharati Vidyapeeth University and the various noteworthy rankings and accreditations credited to University and BVUCOE for its quality education. He said that we all dream to see India as a superpower but in the resent scenario we need to change our mindset. India has potential and talent but not the desired drive to achieve it. An approach with penchant and focus on innovation and research can change the scenario. And it is techfest like Bharatiyam which inculcates such approach in students
+        
+        On this occasion Guest of Honour, Mr. Shrirang Bapat, President Uniken, Pune, shares three top tips which helped him to scale personal life and competence and will also definitely help students. He said that ability to express ideas, a drive to identify and solve burning problems, and a trustworthy mentor are the key to successful entrepreneur. Explaining it he said that having ideas alone isn’t enough, ability to express and convert these ideas is also equally important otherwise it just makes us silent operators. We should be keen to identify and work for burning problems. It has always been people who take these burning problems head on have made it big. He also said that having these abilities, a mentor on whom you trust unquestionably is extremely important to guide us through the course of success
+        
+        “Genre”, the annual magazine of BVUCOE was also inaugurated by the hands of Chief Guest on this occasion. Newsletter “Zero day”, which is a newsletter for the Network security course run by joint collaboration of IQSPL and BVUCOE was also inaugurated by Guest of Honor.</p>
+        
+       <p> For the past 26 years, all disciplinary Departments of the college have been organizing a variety of events involving both students and faculty members alike. Around 3000+ students from over 107 colleges all over the nation have registered for various events of Bharatiyam 2015</p>
+</div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
+
+T&D code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>T&P</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\activites.jpg" width=100%>
+
+  <div class="main">
+    <h2>Training and Placement Department</h2>
+    <p>The aim of training and placement department of this college is to place maximum number of students in reputed IT and core manufacturing, infrastructure companies. To achieve this aim, the department has a continuous interaction with industries to have an idea of what the industries expect from our students. On average 86% of eligible students with average marks more than 55% get placed through campus placements.</p>
+    <p>In addition, the placement department coordinates the activities like arranging on Job training, industrial visits and career guidance lectures to students. The department also guides the students in professionalism, presentation techniques, group discussion techniques interview skills and new technology trends and developments in the industry.
+        This department has modern infrastructure facilities like auditorium of 200 seating capacity, Group Discussion Room, Interview Rooms and office automation equipments like LCD projector and Laptop etc.</p>
+    <h2>Contact Details:</h2>
+    <p>E-mail ID: tpo@bvucoep.edu.in</p>
+    <p>Tele: 020-24364560</p>
+    <br>
+    <h2>Department Goals</h2>
+    <ul>
+        <li>To provide good employment opportunities, including self-employment, to the engineering students, commensurate with their specialization and caliber</li>
+        <li>To provide good employment opportunities, including self-employment, to the engineering students, commensurate with their specialization and caliber</li>
+
+    </ul>
+</div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
+
+EDC code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>EDC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\activites.jpg" width=100%>
+
+  <div class="main">
+   <h2>Entrepreneurship Development Cell</h2>
+   <p>In line with the mission of our Organizations is “Social Transformation Through Dynamic Education”, the ED – Cell of Bharati Vidyapeeth (Deemed to be University) College of Engineering Pune is one the most Innovative entrepreneurship development cell across the region. Entrepreneurship Development Cell (EDC) is a nonprofit constituent of the institute that advances lasting solutions to improve education, promote entrepreneurs, expand economic opportunities and motivate the students to be entrepreneurs.</p>
+    <p>As said by Our Dynamic Principal Hon. Dr. Anand Bhalerao Sir “Not giving jobs, but creating entrepreneurs is the job of an Engineering college” and under his guidance The ED – Cell was established on 27th September 2013.</p>
+    <p>To an economist, an entrepreneur is one who brings resources, labour, materials, and other assets into combinations that make their value greater than before, and also one who introduces changes, innovations, and a new order. To a psychologist, such a person is typically driven by certain forces; the need to obtain or attain something, to experiment, to accomplish, or perhaps to escape the authority of others. To one businessman, an entrepreneur appears as a threat, an aggressive competitor, whereas to another businessman the same entrepreneur may be an ally, a source of supply, a customer, or someone who creates wealth for others, as well as finds better ways to utilize resources, reduce waste, and produce jobs others are glad to get.</p>
+
+</div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
+
+Contact us code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center><img src="C:\Users\Sheetanshu\Pictures\download.png"></center>
+  <h1>Bharati Vidyapeeth</h1>
+  <p>Deemed to be university</p>
+  <p>College of Engineering</p>
+</div>
+
+<div class="navbar">
+    <a href="site sample.html">Home  </a>
+    <a href="ABOUTUS.html">About us  </a>
+    <a href="DEPARTMENT.html">Deparment  </a>
+    <a href="R&D.html">R&D  </a>
+    <a href="central-library.html">central &library  </a>
+    <a href="Activities.html">Activities  </a>
+    <a href="T&P.html">T&P  </a>
+    <a href="EDC.html">EDC  </a>
+    <a href="CONTACT US.html" class="right">Contact  </a>
+</div>
+<img src="C:\Users\Sheetanshu\Pictures\contact.jpg" width=100%>
+
+  <div class="main">
+    <h2>Contact us</h2>
+    <p></p>
+    <p><b>Bharati Vidyapeeth (Deemed to be University)</b></p>
+    <p><b>College of Engineering,</b></p>
+    <p>Pune-Satara Road,</p>
+    <p>Pune-411043</p>
+    <br>
+    <br>
+    <p>Telephone:   (020)-24107390, (020)-24107391</p>
+    <p>Fax:         (020)-24372998</p>
+</div>
+</div>
+
+<div class="footer">
+  <h2><left>Address</left></h2>
+  <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune-Satara Road, Pune-411043</p>
+  <h2><right>Rating</right></h2>
+  <p>
+    College of Engineering, Pune
+    4.3 out of 5
+    168 Reviews</p>
+</div>
+
+</body>
+</html>
