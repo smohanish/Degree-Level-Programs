@@ -1,0 +1,226 @@
+#Design web page of IT Department
+#Only do Manual Changes in the code according to your requirements as I have designed this website for my own college.
+
+<html>
+<head>
+<title>Bharati Vidyapeeth College Of Engineering</title>
+<style>
+h1{text-align:center; color:red; background-color:orange}
+
+p.b { 
+  word-spacing: 30px;
+  text-align:center;
+  font-size:20;
+  face="Arial";
+}
+
+#t01 th {
+  background-color:blue;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+<p style="text-align:center;"><img src="clg.png" alt="college"></p>
+<h1>Bharati Vidyapeeth College of Engineering, IT</h1>
+
+<p class="b"><b>Home | Admission | Programmes | R&D | Library&Campus | Activities | Alumini  | Reviews  </b></p>
+<font size="4.5"
+          color="black"> 
+            <center><b>DET Off Campus Navi Mumbai</b></center> 
+        </font>
+<br>
+<font size="5"
+          face="verdana"
+          color="red"> 
+            <center>About Bharati Vidyapeeth</center> 
+        </font> 
+    
+<h3>During the last 55 years, Bharati Vidyapeeth has made astonishing strides in the field of education, particularly, higher and professional education. Today Bharati Vidyapeeth conducts more than 156 educational units of various kinds, right from pre-primary schools to postgraduate institutions and a full fledged professional university (BVDU).</h3><br>
+<br>
+<font size="6"
+          face="Ariel"
+          color="blue"> 
+            <b>INFORMATION TECHNOLOGY</b>
+        </font> 
+    <br>
+<br> 
+<font size="6"
+          face="Segoe UI"
+          color="Black"> 
+          <u>About The Department</u>
+        </font> 
+<br> 
+<h3>Department has well equipped laboratories and upgraded curriculum which is developed by academicians and industry experts with very close link to the industry. The Department of Information Technology has made substantial investment in its laboratories. The Department has specialised laboratories in Operating Systems, Multimedia Computing and Software Engineering.
+The Information Technology Student Association organises various events and expert lectures on different platforms. Apart from giving thorough technical knowledge using the state-of art technology, the students are taught communication skills and are given work experience on live projects. Also, in-plant training is included in the course to expose the students to latest IT trends.
+Every year more than 50 companies approach to impart in-plant training to the students. The Companies include Medium/Small Scale, Large Scale companies & Government Organisations. Some of the companies are TCS, HCL, Zensar, HCL Infosystems, DRDO, etc.</h3>
+<font size="5"
+          face="verdana"
+          color="red"> 
+          <u><b>Faculty Profiles :</b></u>
+        </font> 
+<br>
+<table style="width:100%" border="2" id="t01">
+<tr>
+<th><h3><center>S.No.</center></h3></th>
+<th><h3><center>Name</center></h3></th>
+<th><h3><center>Designation</center></h3></th>
+<th><h3><center>Qualification</center></h3></th>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">1</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Gawali Sangram</td>
+<td style="text-align: center; vertical-align: middle;">Associate Professor and Head</td>
+<td style="text-align: center; vertical-align: middle;">M.Tech, Ph.D. Pursuing</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">2</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Prakash Devale</td>
+<td style="text-align: center; vertical-align: middle;">Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.E (Computer), Ph.D (Pursuing)</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">3</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Sonali D. Mali</td>
+<td style="text-align: center; vertical-align: middle;">Associate Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.Tech, Ph.D. Pursuing</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">4</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Kulkarni Yogini C</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.E.(Computer Engg)</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">5</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Snehal Dipak Chaudhary</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">B.E. (IT), MBA Systems Management, M.E. (Computer)</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">6</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Milind Gayakwad</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.E. (Computer), Ph.D. Pursuing</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">7</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Jadhav Pramod A.</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.Tech, (Computer) Ph.D. Pursuing</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">8</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Paygude Priyanka Sopanrao</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.Tech (IT), Ph.D. Pursuing</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">9</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Medhane Sampat Pundlik</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.Tech</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">10</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Prashant S. Chavan</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.E. (Computer)</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">11</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Tulshihar Bhagawan Patil</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.Tech (Computer)</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">12</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Deshmukh Shrikala M.</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.Tech</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">13</td>
+<td style="text-align: center; vertical-align: middle;">Prof. Gajanan V. Bhole</td>
+<td style="text-align: center; vertical-align: middle;">Assistant Professor</td>
+<td style="text-align: center; vertical-align: middle;">M.Tech (I.T.)</td>
+</tr>
+</table>
+
+<font size="5"
+          face="verdana"
+          color="red"> 
+          <u><b>Facilities :</b></u>
+        </font> 
+<br>
+<h3>Softwares</h3>
+<ol type="circle">
+<li>Operating System - <br></li>
+Sco Xenix 2.1, Linux, Windows<br>
+<br>
+<li>RDBMS - <br></li>
+Oracle, My SQL.
+</ol>
+<h3>Laboratories</h3>
+<ol type="circle">
+<li>System Software Laboratory<br></li>
+<li>Programming Laboratory-I<br></li>
+<li>Programming Laboratory-II<br></li>
+<li>Visual Programming Laboratory<br></li>
+<li>Research Laboratoryâ€“I<br></li>
+<li>Research Laboratory-II<br></li>
+<li>Linux Laboratory<br></li>
+<li>Multimedia Laboratory<br></li>
+</ol>
+<h3>Major Equipments</h3>
+<ol type="circle">
+<li>Computers with Core i3 , i5, i7  Processor<br></li>
+</ol>
+<font size="5"
+          face="verdana"
+          color="red"> 
+          <u><b>Department Activities :</b> </u>
+        </font> 
+<br>
+<h3>Eminent personalities who have visited the Department</h3>
+<ol type="circle">
+<li>Shri Zakheer Khan, Karrox Technology, Pune.<br></li>
+<li>Shri. Kapil Chandok, CEO, Kaiser International Education.
+<br></li>
+<li>Dr. Ganesh Natarajan, CEO & MD, Zensar Technologies.
+<br></li>
+<li>Mr.Chandrashekar, Career Launcher.
+<br></li>
+<li>Mrs. Ghuli, PICT-SITM, Pune.
+<br></li>
+<li>Mr. Sanjay Gandhi, Jetking, Pune.
+<br></li>
+<li>Mr. Subroto Rao, Editor, education Times.
+<br></li>
+<li>Mr. Deepak Shikarpurkar, Executive Director, CSI.
+<br></li>
+<li>Dr. Arun Nigvekar, Former Chairman UGC.
+<br></li>
+<li>Dr. Vishwas Mehendale.
+</li></ol>
+<h3>Social Work</h3>
+<b>As a social responsibility, Department is doing projects for city-based NGOs like-</b>
+<ol type="circle">
+<li>Mauli Seva Sushrusha Kendra (Old Age Home)<br></li>
+<li>Touch India Foundation<br></li>
+<li>SWADHAR (Institute of Development of Women and Children)<br></li>
+<li>Samajic Nyay and Samta Pratisthan<br></li>
+</ol>
+</ol>
+____________________________________________________________________________________________________________________________________________________________________________________________
+<font size="4"
+          face="arial"
+          color="Black"> 
+          <b>Address</b>
+        </font> 
+<p>Bharati Vidyapeeth (Deemed to be University)<br> 
+College of Engineering, <br>
+Pune-Satara Road, Pune - 411043</p>
+</body>
+</html>
