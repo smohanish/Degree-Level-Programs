@@ -1,0 +1,16 @@
+#Simulate e-album of images using Imagemap.
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Image Maping Concept</h1>
+<p>There are pictures of four animals</p>
+<img src="images/85120553.jpg" alt="SHEETANSHU " usemap="#workmap" width="1500" height ="1000">
+<map name="workmap">
+	<area shape="circle" coords="1100,250,100"  alt="SHEETANSHU "  href="https://unsplash.com/photos/9hSejnboeTY">
+	<area shape="rect" coords="0,0,300,500"   alt="SHEETANSHU "  href="https://unsplash.com/photos/dGMcpbzcq1I">
+	<area shape="poly" coords="250,960,250,700,433,700,550,906,397,1028"  alt="SHEETANSHU "  href="https://unsplash.com/photos/r077pfFsdaU">
+</map>
+</body>
+</html>
+
